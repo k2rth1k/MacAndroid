@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D97109257A75EB00C92D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D97108257A75EB00C92D42 /* AppDelegate.swift */; };
+		D5D9710B257A75EB00C92D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D9710A257A75EB00C92D42 /* ContentView.swift */; };
+		D5D9710D257A75EC00C92D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D9710C257A75EC00C92D42 /* Assets.xcassets */; };
+		D5D97110257A75EC00C92D42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D9710F257A75EC00C92D42 /* Preview Assets.xcassets */; };
+		D5D97113257A75EC00C92D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D97111257A75EC00C92D42 /* Main.storyboard */; };
+		D5D9711F257A75EC00C92D42 /* MacAndroidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D9711E257A75EC00C92D42 /* MacAndroidTests.swift */; };
+		D5D9712A257A75EC00C92D42 /* MacAndroidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D97129257A75EC00C92D42 /* MacAndroidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D9711B257A75EC00C92D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D970FD257A75EB00C92D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D97104257A75EB00C92D42;
+			remoteInfo = MacAndroid;
+		};
+		D5D97126257A75EC00C92D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D970FD257A75EB00C92D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D97104257A75EB00C92D42;
+			remoteInfo = MacAndroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5D97105257A75EB00C92D42 /* MacAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D97108257A75EB00C92D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D9710A257A75EB00C92D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5D9710C257A75EC00C92D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D9710F257A75EC00C92D42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5D97112257A75EC00C92D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D97114257A75EC00C92D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D97115257A75EC00C92D42 /* MacAndroid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAndroid.entitlements; sourceTree = "<group>"; };
+		D5D9711A257A75EC00C92D42 /* MacAndroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAndroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D9711E257A75EC00C92D42 /* MacAndroidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAndroidTests.swift; sourceTree = "<group>"; };
+		D5D97120257A75EC00C92D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D97125257A75EC00C92D42 /* MacAndroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAndroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D97129257A75EC00C92D42 /* MacAndroidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAndroidUITests.swift; sourceTree = "<group>"; };
+		D5D9712B257A75EC00C92D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D97102257A75EB00C92D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97117257A75EC00C92D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97122257A75EC00C92D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D970FC257A75EB00C92D42 = {
+			isa = PBXGroup;
+			children = (
+				D5D97107257A75EB00C92D42 /* MacAndroid */,
+				D5D9711D257A75EC00C92D42 /* MacAndroidTests */,
+				D5D97128257A75EC00C92D42 /* MacAndroidUITests */,
+				D5D97106257A75EB00C92D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D97106257A75EB00C92D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D97105257A75EB00C92D42 /* MacAndroid.app */,
+				D5D9711A257A75EC00C92D42 /* MacAndroidTests.xctest */,
+				D5D97125257A75EC00C92D42 /* MacAndroidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D97107257A75EB00C92D42 /* MacAndroid */ = {
+			isa = PBXGroup;
+			children = (
+				D5D97108257A75EB00C92D42 /* AppDelegate.swift */,
+				D5D9710A257A75EB00C92D42 /* ContentView.swift */,
+				D5D9710C257A75EC00C92D42 /* Assets.xcassets */,
+				D5D97111257A75EC00C92D42 /* Main.storyboard */,
+				D5D97114257A75EC00C92D42 /* Info.plist */,
+				D5D97115257A75EC00C92D42 /* MacAndroid.entitlements */,
+				D5D9710E257A75EC00C92D42 /* Preview Content */,
+			);
+			path = MacAndroid;
+			sourceTree = "<group>";
+		};
+		D5D9710E257A75EC00C92D42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9710F257A75EC00C92D42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5D9711D257A75EC00C92D42 /* MacAndroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9711E257A75EC00C92D42 /* MacAndroidTests.swift */,
+				D5D97120257A75EC00C92D42 /* Info.plist */,
+			);
+			path = MacAndroidTests;
+			sourceTree = "<group>";
+		};
+		D5D97128257A75EC00C92D42 /* MacAndroidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D97129257A75EC00C92D42 /* MacAndroidUITests.swift */,
+				D5D9712B257A75EC00C92D42 /* Info.plist */,
+			);
+			path = MacAndroidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D97104257A75EB00C92D42 /* MacAndroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D9712E257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroid" */;
+			buildPhases = (
+				D5D97101257A75EB00C92D42 /* Sources */,
+				D5D97102257A75EB00C92D42 /* Frameworks */,
+				D5D97103257A75EB00C92D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAndroid;
+			productName = MacAndroid;
+			productReference = D5D97105257A75EB00C92D42 /* MacAndroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D97119257A75EC00C92D42 /* MacAndroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D97131257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroidTests" */;
+			buildPhases = (
+				D5D97116257A75EC00C92D42 /* Sources */,
+				D5D97117257A75EC00C92D42 /* Frameworks */,
+				D5D97118257A75EC00C92D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D9711C257A75EC00C92D42 /* PBXTargetDependency */,
+			);
+			name = MacAndroidTests;
+			productName = MacAndroidTests;
+			productReference = D5D9711A257A75EC00C92D42 /* MacAndroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D97124257A75EC00C92D42 /* MacAndroidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D97134257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroidUITests" */;
+			buildPhases = (
+				D5D97121257A75EC00C92D42 /* Sources */,
+				D5D97122257A75EC00C92D42 /* Frameworks */,
+				D5D97123257A75EC00C92D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D97127257A75EC00C92D42 /* PBXTargetDependency */,
+			);
+			name = MacAndroidUITests;
+			productName = MacAndroidUITests;
+			productReference = D5D97125257A75EC00C92D42 /* MacAndroidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D970FD257A75EB00C92D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D5D97104257A75EB00C92D42 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D5D97119257A75EC00C92D42 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D5D97104257A75EB00C92D42;
+					};
+					D5D97124257A75EC00C92D42 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D5D97104257A75EB00C92D42;
+					};
+				};
+			};
+			buildConfigurationList = D5D97100257A75EB00C92D42 /* Build configuration list for PBXProject "MacAndroid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D970FC257A75EB00C92D42;
+			productRefGroup = D5D97106257A75EB00C92D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D97104257A75EB00C92D42 /* MacAndroid */,
+				D5D97119257A75EC00C92D42 /* MacAndroidTests */,
+				D5D97124257A75EC00C92D42 /* MacAndroidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D97103257A75EB00C92D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D97113257A75EC00C92D42 /* Main.storyboard in Resources */,
+				D5D97110257A75EC00C92D42 /* Preview Assets.xcassets in Resources */,
+				D5D9710D257A75EC00C92D42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97118257A75EC00C92D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97123257A75EC00C92D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D97101257A75EB00C92D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9710B257A75EB00C92D42 /* ContentView.swift in Sources */,
+				D5D97109257A75EB00C92D42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97116257A75EC00C92D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9711F257A75EC00C92D42 /* MacAndroidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D97121257A75EC00C92D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9712A257A75EC00C92D42 /* MacAndroidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D9711C257A75EC00C92D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D97104257A75EB00C92D42 /* MacAndroid */;
+			targetProxy = D5D9711B257A75EC00C92D42 /* PBXContainerItemProxy */;
+		};
+		D5D97127257A75EC00C92D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D97104257A75EB00C92D42 /* MacAndroid */;
+			targetProxy = D5D97126257A75EC00C92D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D97111257A75EC00C92D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D97112257A75EC00C92D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D9712C257A75EC00C92D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D9712D257A75EC00C92D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5D9712F257A75EC00C92D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAndroid/MacAndroid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAndroid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5D97130257A75EC00C92D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAndroid/MacAndroid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAndroid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5D97132257A75EC00C92D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAndroidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacAndroid.app/Contents/MacOS/MacAndroid";
+			};
+			name = Debug;
+		};
+		D5D97133257A75EC00C92D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAndroidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacAndroid.app/Contents/MacOS/MacAndroid";
+			};
+			name = Release;
+		};
+		D5D97135257A75EC00C92D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacAndroid;
+			};
+			name = Debug;
+		};
+		D5D97136257A75EC00C92D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = karthik.MacAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacAndroid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D97100257A75EB00C92D42 /* Build configuration list for PBXProject "MacAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9712C257A75EC00C92D42 /* Debug */,
+				D5D9712D257A75EC00C92D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9712E257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9712F257A75EC00C92D42 /* Debug */,
+				D5D97130257A75EC00C92D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D97131257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D97132257A75EC00C92D42 /* Debug */,
+				D5D97133257A75EC00C92D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D97134257A75EC00C92D42 /* Build configuration list for PBXNativeTarget "MacAndroidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D97135257A75EC00C92D42 /* Debug */,
+				D5D97136257A75EC00C92D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D970FD257A75EB00C92D42 /* Project object */;
+}
